@@ -1,0 +1,20 @@
+Version: 1
+
+Rpath: ${R_EXE_4_1}
+
+Packages:
+  - yspec
+  - purrr
+  - dplyr
+  - knitr
+  - rmarkdown
+
+Repos:
+  - MPN: https://mpn.metworx.com/snapshots/stable/2022-03-21
+
+Customizations:
+  Packages:
+  - yspec: {Suggests: true}
+      
+Lockfile:
+    Type: renv
