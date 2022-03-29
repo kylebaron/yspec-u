@@ -8,6 +8,7 @@ Packages:
   - dplyr
   - knitr
   - rmarkdown
+  - data.table
 
 Repos:
   - MPN: https://mpn.metworx.com/snapshots/stable/2022-03-21
